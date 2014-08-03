@@ -25,7 +25,7 @@ $(function() {
 		function printOneThroughHundred() {
 			for(i = 1; i <= 100; i++) {
 				if(i % 3 == 0 && i % 5 == 0) {
-					$(outputContainer).append("Fizz Buzz <br />");
+					$(outputContainer).append("Fizz Buzz<br />");
 				} else if(i % 3 == 0) {
 					$(outputContainer).append("Fizz<br />");
 				} else if(i % 5 == 0) {
