@@ -23,7 +23,7 @@ $(function() {
 		// >> 5 prints out "Buzz"
 		// >> 3 prints out "Fizz Buzz"
 		function printOneThroughHundred() {
-			for(i = 1; i <= 100; i++) {
+			for(var i = 1; i <= 100; i++) {
 				if(i % 3 == 0 && i % 5 == 0) {
 					$(outputContainer).append("Fizz Buzz<br />");
 				} else if(i % 3 == 0) {
