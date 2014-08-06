@@ -44,6 +44,5 @@ $(function() {
 });
 // End jQuery Ready Function
 
-
 })();
 // End Anonymous function
